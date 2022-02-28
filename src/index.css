@@ -115,7 +115,7 @@ img {
 }
 
 /* Media Query for tablets (medium devices) */
-@media screen and(maa-width : 1024px) {
+@media screen and (max-width: 1024px) {
   .container {
     width: var(--container-width-md);
   }
@@ -126,7 +126,7 @@ img {
 }
 
 /* Media Query for phone (small devices) */
-@media screen and(maa-width : 600px) {
+@media screen and (max-width: 600px) {
   .container {
     width: var(--container-width-sm);
   }
